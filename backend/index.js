@@ -37,8 +37,8 @@ app.post('/submit', async (req, res) => {
     console.error("DB Error:", error);
     res.status(500).json({ status: false, error: "Database error" });
   }
-});
-
+});    
+ 
 
 console.log("Hii")
 
